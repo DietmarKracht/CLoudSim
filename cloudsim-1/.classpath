@@ -4,6 +4,7 @@
 	<classpathentry kind="src" path="cloudsim/src/main/java"/>
 	<classpathentry kind="src" path="cloudsim/src/test/java"/>
 	<classpathentry kind="src" path="cloudsim/src/guazzone"/>
+	<classpathentry kind="src" path="cloudsim-examples/src/main/ressources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="commons-math3-3.6.1.jar"/>
 	<classpathentry kind="lib" path="easymock-3.4.jar"/>
