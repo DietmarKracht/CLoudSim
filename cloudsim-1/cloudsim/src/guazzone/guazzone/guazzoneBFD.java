@@ -60,6 +60,7 @@ public class guazzoneBFD extends PowerVmAllocationPolicyMigrationStaticThreshold
 	protected List<Map<String, Object>> getNewVmPlacement(
 			List<? extends Vm> vmsToMigrate,
 			Set<? extends Host> excludedHosts) {
+		System.out.println("Guazzone verwendet");
 		List<Map<String, Object>> migrationMap = new LinkedList<Map<String, Object>>();
 		
 		Collections.sort(vmsToMigrate, VmComparator);	// sort VMs with custom comparator, otherwise it would be the same as in the superclass

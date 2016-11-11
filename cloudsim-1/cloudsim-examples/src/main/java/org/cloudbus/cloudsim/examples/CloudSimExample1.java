@@ -34,6 +34,8 @@ import org.cloudbus.cloudsim.provisioners.BwProvisionerSimple;
 import org.cloudbus.cloudsim.provisioners.PeProvisionerSimple;
 import org.cloudbus.cloudsim.provisioners.RamProvisionerSimple;
 
+import guazzone.guazzoneBFD;
+
 /**
  * A simple example showing how to create a data center with one host and run one cloudlet on it.
  */
